@@ -67,3 +67,7 @@ The goal of this project is to compare different reconstruction strategies and a
 
 ---
 
+## Project Files
+
+- `sparse_vs_denoising_autoencoder.ipynb` – Sparse and Denoising Autoencoder experiments  
+- `dense_vs_cnn_autoencoder.ipynb` – Dense vs CNN Autoencoder comparison
