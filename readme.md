@@ -5,7 +5,6 @@ This repository contains experimental implementations of advanced autoencoder va
 The goal of this project is to compare different reconstruction strategies and analyze how architectural choices influence performance and training behavior.
 
 
-
 ## Implemented Models
 
 ### Sparse Autoencoder
