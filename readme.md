@@ -4,7 +4,7 @@ This repository contains experimental implementations of advanced autoencoder va
 
 The goal of this project is to compare different reconstruction strategies and analyze how architectural choices influence performance and training behavior.
 
----
+
 
 ## Implemented Models
 
@@ -28,7 +28,7 @@ The goal of this project is to compare different reconstruction strategies and a
 - Preserves spatial structure
 - Achieved best reconstruction performance
 
----
+
 
 ## Dataset
 
@@ -36,7 +36,6 @@ The goal of this project is to compare different reconstruction strategies and a
 - Images normalized to [0,1]
 - Training performed in an unsupervised manner
 
----
 
 ## Training Configuration
 
@@ -45,7 +44,7 @@ The goal of this project is to compare different reconstruction strategies and a
 - Epochs: 20
 - Batch Size: 256
 
----
+
 
 ## Performance Summary
 
@@ -56,7 +55,6 @@ The goal of this project is to compare different reconstruction strategies and a
 | Dense Deep Autoencoder | 0.00795       |
 | CNN Autoencoder        | 0.002915      |
 
----
 
 ## Key Findings
 
@@ -65,9 +63,7 @@ The goal of this project is to compare different reconstruction strategies and a
 - CNN autoencoders outperform dense models in reconstruction accuracy.
 - CNN models require significantly longer training time per epoch.
 
----
 
-## Project Files
 
 - `Sparse_vs_Denoising_autoencoder.ipynb` – Sparse and Denoising Autoencoder experiments  
 - `CNN_vs_Dense_autoencoder.ipynb` – Dense vs CNN Autoencoder comparison
